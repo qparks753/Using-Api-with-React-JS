@@ -1,0 +1,11 @@
+.card-holder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:90vw;
+}
+
+.card-holder div{
+    margin:1rem;
+}
