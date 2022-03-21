@@ -41,7 +41,7 @@ const Films = () => {
                       <ListGroupItem>{film.producer}</ListGroupItem>
                       <ListGroupItem>{film.release_date}</ListGroupItem>
                       <ListGroupItem> {film.running_time} Minutes</ListGroupItem>
-                      <ListGroupItem  className="runtime">{film.rt_score}</ListGroupItem>
+                      <ListGroupItem> {film.rt_score>70?<span style={{ color:"green" }}>{film.rt_score} </span>:<span  style={{ color:"red" }}>{film.rt_score}</span>}</ListGroupItem>
                     </ListGroup>
                   </Card>
                 ))};
